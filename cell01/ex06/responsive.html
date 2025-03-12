@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="view" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 05 - Table</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+        }
+
+        table {
+            width: 90%;
+            height: 800px;
+            border-collapse: collapse;
+          
+        }
+        td {
+            height: 200px;
+            text-align:center;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+        .first-cell{
+            background-color: rgb(227, 174, 174);
+        }
+        .second-cell{
+            background-color: rgb(171, 190, 132);
+        }
+        @media (max-weidth: 600px) {
+            td{
+                height: 150px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td class="first-cell">First cell</td>
+            <td class="second-cell">second-cell</td>
+        </tr>
+    </table>
+</body>
+</html> 
